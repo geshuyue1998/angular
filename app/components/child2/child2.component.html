@@ -1,0 +1,19 @@
+<!-- <p>
+  child2 works!
+</p> -->
+<ng-content  select=".header"></ng-content>
+<ul>
+  <li *ngFor="let item of arr,let i=index;">
+    <input type="checkbox" (click)="change(i)">
+    {{item}}
+    <button (click)="delete(i)">删除</button>
+  </li>
+</ul>
+<ng-content select=".header"></ng-content>
+<ul>
+  <li *ngFor="let item of arr1,let i=index;">
+    <input checked type="checkbox"(click)=change(i)>
+    {{item}}
+    <button (click)="delete(i)">删除</button>
+  </li>
+</ul>

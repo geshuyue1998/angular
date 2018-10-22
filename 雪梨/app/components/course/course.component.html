@@ -1,0 +1,16 @@
+<div class="container">
+  <ul>
+    <li *ngFor="let kecheng of kechengs;">
+       <a [routerLink]="['/course',kecheng.id]"> 
+        <img src="{{kecheng.images}}" alt="">
+        <h3 >{{kecheng.kechengName}}</h3>
+        <div class="shu">
+          <p>{{kecheng.jieshao}}</p>
+          <span>{{kecheng.time}}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <span>{{kecheng.person}}</span>
+        </div>
+     </a> 
+    </li>
+  </ul>
+
+</div>

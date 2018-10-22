@@ -1,0 +1,26 @@
+<div class="container">
+    <ul>
+      <li *ngFor="let pinglun of pingluns;">
+        <a [routerLink]="['/shequ',pinglun.id]">
+          <div class="touxiang"><img src="{{pinglun.touxiang}}" alt=""></div>
+          <div class="imgs"><img src="{{pinglun.images}}" alt=""></div>
+          <div class="text">
+            <img src="assets/images/biao.png" class="im1">
+            <h3 >{{pinglun.pinglunName}}</h3>
+            <p>{{pinglun.text}}</p>
+          </div>
+          <div class="zuozhe">
+            <span>{{pinglun.name}}</span>
+            <span>{{pinglun.time}}</span>
+          </div>
+          <div class="read">
+            <span>{{pinglun.read}}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span>{{pinglun.write}}</span>
+          </div>
+       
+      </a>
+      </li>
+    </ul>
+  </div>
+  <div class="right"></div>
+  

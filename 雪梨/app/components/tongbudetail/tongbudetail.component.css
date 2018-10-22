@@ -1,0 +1,26 @@
+.container{
+    width: 1200px;
+    margin:0 auto;
+}
+h3{
+  margin-left: 140px;
+}
+.img{
+  margin-left: 110px;
+  float: left;
+}
+.list{
+  margin-left: 30px;
+}
+.list li{
+  /* border:1px solid blue; */
+  list-style:none;
+  float: left;  
+  margin-left: 5px;
+  margin-top: 3px;
+}
+ul div{
+  float: left;
+  margin-left: 40px;
+  /* border:1px solid red; */
+}

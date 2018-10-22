@@ -1,0 +1,13 @@
+<div class="container">
+    <ul>
+      <li><a [routerLink]="['./unfinishdetail']">未提交</a></li>
+      <li><a [routerLink]="['/']">已完成</a></li>
+      <li><a [routerLink]="['/course']">已完结</a></li>
+  </ul>
+  <div class="input"><input type="text" name="fname"value="输入同步课名称搜索" />
+    <input type="submit" value="搜索" />
+  </div>
+</div>
+
+
+ <router-outlet></router-outlet> 

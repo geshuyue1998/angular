@@ -1,0 +1,75 @@
+.container{
+    width: 800px;
+    height: 60px;
+    
+    float: right;
+    margin-top: -380px;
+    margin-right: 220px;
+}
+ul li{
+    list-style: none;
+}
+.shang{
+    width: 780px;
+    height:30px;
+    border: 1px solid gainsboro;
+}
+.xia{
+    width: 780px;
+    height: 20px;
+    border: 1px solid gainsboro;
+    float: left;
+    margin-top: -7px;
+}
+.xia img{
+    margin: 0 auto;
+    width: 20px;
+    height: 20px;
+   
+   
+    float: left;
+}
+.xia h3{
+    width: 130px;
+    height: 20px;
+    font-size: 12px;
+ 
+    margin-left: 30px;
+    margin-top: -1px;
+}
+.div1{
+   
+    width:150px;
+    height: 26px;
+    font-size: 14px;
+    float: left;
+    margin-top: 0px;
+    padding-top: 4px;
+}
+.div3{
+    border: 2px solid rgb(241, 107, 17);
+    width:50px;
+    height: 24px;
+    font-size: 12px;
+    float: left;
+    margin-left: 5px;
+    padding-top: 4px;
+}
+.div2{
+    border: 2px solid rgb(17, 226, 233);
+    width:130px;
+    height: 24px;
+    font-size: 12px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 5px;
+    padding-top: 4px;
+}
+.div4{
+    float: right;
+    font-size: 16px;
+    color:blue;
+    width: 40px;
+    height: 30px;
+    font-weight: bold;
+}

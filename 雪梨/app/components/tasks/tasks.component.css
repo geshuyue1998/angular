@@ -1,0 +1,23 @@
+li{
+    float: left;
+    list-style: none;
+    margin-left: 5px;
+    text-decoration-line: none;
+}
+li a{
+   
+    color: black;
+    font-size: 15px;
+}
+.container{
+    width: 800px;
+     height: 400px;
+   /* border: 1px solid red; */
+   float: right;
+   margin-top: -450px;
+   margin-right: 200px;
+
+}
+.input{
+    margin-left: 500px;
+}

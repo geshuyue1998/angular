@@ -1,0 +1,39 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.container li{
+    border:1px solid gainsboro;
+    width: 230px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 25px;
+    list-style: none;
+}
+.shu{
+    margin-top: 20px;
+}
+.shu img{
+    /* border:1px solid red; */
+    /* float: left; */
+    padding-top: 50px;
+    margin-left: 5px;
+}
+div span{
+    /* border:1px solid red; */
+   
+    margin-left: 5px;
+    
+}
+button{
+    margin-left: 70px;
+    background-color:  rgb(255, 144, 104);
+    flood-color: white;
+    
+}
+h3{
+  font-size:18px;
+  color: black;
+  font-family: 黑体;
+  
+}

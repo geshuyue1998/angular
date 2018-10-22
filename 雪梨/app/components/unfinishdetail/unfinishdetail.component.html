@@ -1,0 +1,19 @@
+<div class="container">
+    <ul>
+      <li *ngFor="let task of tasks;">
+         
+          <div class="shang"> 
+            <h3 class="div1">{{task.name}}</h3>
+            <h3 class="div2">{{task.time}}</h3>
+            <span class="div3">{{task.xianzhuang}}</span>
+            <span class="div4">{{task.grade }}</span>
+          </div>
+          <div class="xia">
+            <img src="assets/images/tongbuke1.png">
+            <h3>{{task.course}}</h3>
+          </div>
+    
+      </li>
+    </ul>
+  
+  </div>
